@@ -1,8 +1,8 @@
 {
   "name": "@webstory/toolbox",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JavaScript utility classes toolbox",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
