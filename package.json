@@ -1,13 +1,12 @@
 {
   "name": "@webstory/toolbox",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript utility classes toolbox",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "clean": "rimraf build/*",
-    "publish": "npm publish --access public"
+    "clean": "rimraf build/*"
   },
   "type": "module",
   "repository": {
