@@ -1,14 +1,27 @@
 {
   "name": "@webstory/toolbox",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "JavaScript utility classes toolbox",
-  "main": "build/index.js",
   "scripts": {
-    "build": "tsc",
+    "build:node": "tsc --project tsconfig.node.json",
+    "build:browser": "tsc --project tsconfig.browser.json",
+    "build": "npm run build:node && npm run build:browser",
     "test": "jest",
     "clean": "rimraf build/*"
   },
-  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./build/node/index.d.ts",
+        "default": "./build/browser/index.js"
+      },
+      "require": {
+        "types": "./build/node/index.d.ts",
+        "default": "./build/node/index.js"
+      }
+    }
+  },
+  "main": "./build/browser/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/webstory/toolbox"

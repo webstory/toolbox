@@ -5,8 +5,8 @@
       "@/*": ["src/*"]
     },
     "allowJs": true,
-    "target": "ES2020",
-    "module": "NodeNext",
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
