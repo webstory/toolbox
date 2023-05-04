@@ -6,7 +6,7 @@
     },
     "allowJs": true,
     "target": "ES2020",
-    "module": "ES2020",
+    "module": "NodeNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -32,6 +32,6 @@
     "skipLibCheck": true,
     "sourceMap": true
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/tests", ".vscode"]
 }
