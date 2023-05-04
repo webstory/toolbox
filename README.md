@@ -29,10 +29,12 @@ const { ArrayDeque } = require('@webstory/toolbox');
 
 const deque = new ArrayDeque();
 
-deque.pushFront(1);
-deque.pushBack(2);
-deque.popFront(); // returns 1
-deque.popBack(); // returns 2
+deque.push(1);
+deque.push(2);
+deque.unshift(3);
+deque.unshift(4);
+deque.pop(); // returns 1
+deque.shift(); // returns 4
 ```
 
 ### LRUCache

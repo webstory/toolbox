@@ -6,9 +6,14 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "clean": "rimraf build/*"
+    "clean": "rimraf build/*",
+    "publish": "npm publish --access public"
   },
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webstory/toolbox"
+  },
   "keywords": [
     "utility",
     "util",

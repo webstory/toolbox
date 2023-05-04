@@ -25,6 +25,10 @@ export class ArrayDeque<T> implements Deque<T> {
 
   /// pop from the tail
   pop(): T | undefined {
+    if (this._tail.length === 0) {
+      this._tail = this._head.reverse();
+      this._head = [];
+    }
     return this._tail.pop();
   }
 
