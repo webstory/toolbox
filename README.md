@@ -1,5 +1,14 @@
 # Utility Toolbox
 
+## ⚠️WARNING⚠️
+
+```
+This package is for study purposes and is not for production use.
+If you still got interested, please copy and paste the source code where you need it.
+
+Adding test cases is always welcome.
+```
+
 This package provides a collection of useful utility classes to streamline your development process and help you manage your data structures more efficiently. These classes are designed to be lightweight, easy to use, and highly performant.
 
 ## Installation

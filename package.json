@@ -1,6 +1,6 @@
 {
   "name": "@webstory/toolbox",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "JavaScript utility classes toolbox",
   "scripts": {
     "build:node": "tsc --project tsconfig.node.json",
